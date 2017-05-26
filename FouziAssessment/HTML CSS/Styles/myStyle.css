@@ -2,16 +2,19 @@
 /*STYLING HEADER section*/
 /*Fix*/
 .headerSection{
-    border:2px solid red ;
-    padding: 0px ; 
+  /*  border:2px solid red ;*/
+    background-image: url(../images/Refinery.jpg);
+    border: 0px 0px 0px 0px;
+    background-size: cover ;
+    padding: 0px 0px 0px 0px ; 
     margin:0px;
     width: 100%;
     float: left;
 }
 
 .logoContainer{
-    width:5% ;    
-    border: 1px solid blue;
+    width:3% ;    
+   /* border: 1px solid blue;*/
     padding: 0px;
     /*overflow: auto;*/
     margin: 5px;
@@ -19,6 +22,7 @@
     left: 20px;
     top:5px;
     float: left;
+    opacity: 0.2
     
 }
 
@@ -31,18 +35,17 @@
 
 
 .searchContainer{
-    width: 60% ;
+    position: relative;
+    width:30% ;
     float: right;
-    border: 2px solid green;
+/*    border: 2px solid green;*/
     height: 10%;
     position: relative;
     right: 10%;
     top:10px;
+    opacity: 0.4
 }
-.labelSearch{
-    float: left ;
-    opacity: 0.5;
-}
+
 
 .searchInput{
     /*padding: 5px auto 5px auto*/;
@@ -50,28 +53,100 @@
     margin-right: auto;
     float: left;
     width: 80%;
-    font-size: 1.6em;
-    opacity: 0.6;
-  
+    font-size: 1.4em;
+    opacity: 0.4;
+    font-weight: bold
     
 }
 
-.spin{
-    float: left;
 
+
+.searchLogoContainer i {
+    float: left;
+   /* display: inline-block;*/
+    /*background-color: red;*/
+    
+    width: 40px;
+    height: 40px;
 }
+
+.test{
+    width:10%;
+    float: left;
+    border: 2px solid red ;
+    
+}
+
 
 .menuSection{
     float: left ;
     width: 100%;
-    border:5px solid orange ;
-    padding: 20px ;
+  /*  border:5px solid orange ;*/
+    padding: 0px 0px 0px 0px;
     margin: 0px;
     height: auto;
+    /*position: relative ;*/
     
 }
 
+.navContainer {
+    position: relative;
+    border: 0px solid green ;
+    width: 20%;
+    float: left ;
+    background-image: url(../images/Petrol_pump.jpg) ;
+    background-repeat: round ;
+    height: 400px ;
+    
+}
+
+ul{
+    position: absolute ;
+    left: 5px;
+    top: 5px;
+    
+}
+
+li {
+    margin: 5px;
+    text-align: left;
+    padding: 20px;
+    height: 10px;
+    list-style-type: none ;
+    margin: auto ;
+    border-bottom: 1px solid blue ;
+    font-style: oblique;
+    color: dimgray;
+    font-weight: bolder ;
+    background-color: aqua ;
+    opacity: 0.3;
+    
+}
+
+li:hover
+{ color: white ;
+   opacity: 0.8; 
+  font-size: 1.2em;
+    
+}
+
+.landingImg{
+    background-image: url(../images/Refinery.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 0px 0px 0px ;
+    width:80%;
+    height:400px; 
+    float: left ;
+
+    /*background-attachment: fixed;*/
+}
+
+
+
 .contentContainer{
+   position: relative ;
     float:left ;
     width :100% ;
     border:5px solid  yellow;
