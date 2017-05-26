@@ -1,17 +1,79 @@
-.headerC{
-   /* background-image: url(../images/logosmall.png) ;*/
-    border:5px solid green ;
-    padding: 5px ; 
-    margin:5px;
-}
-.navContainer{
-    border:5px solid orange ;
-    padding: 5px ;
-    margin: 5px;
+
+/*STYLING HEADER section*/
+/*Fix*/
+.headerSection{
+    border:2px solid red ;
+    padding: 0px ; 
+    margin:0px;
+    width: 100%;
+    float: left;
 }
 
+.logoContainer{
+    width:5% ;    
+    border: 1px solid blue;
+    padding: 0px;
+    /*overflow: auto;*/
+    margin: 5px;
+    position: relative;
+    left: 20px;
+    top:5px;
+    float: left;
+    
+}
+
+.logo{
+    width: 100% ; 
+   /* border: 1px solid red ;*/
+    opacity: 0.9;
+    margin: 0px;
+}
+
+
+.searchContainer{
+    width: 60% ;
+    float: right;
+    border: 2px solid green;
+    height: 10%;
+    position: relative;
+    right: 10%;
+    top:10px;
+}
+.labelSearch{
+    float: left ;
+    opacity: 0.5;
+}
+
+.searchInput{
+    /*padding: 5px auto 5px auto*/;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 80%;
+    font-size: 1.6em;
+    opacity: 0.6;
+  
+    
+}
+
+.spin{
+    float: left;
+
+}
+
+.menuSection{
+    float: left ;
+    width: 100%;
+    border:5px solid orange ;
+    padding: 20px ;
+    margin: 0px;
+    height: auto;
+    
+}
 
 .contentContainer{
+    float:left ;
+    width :100% ;
     border:5px solid  yellow;
     padding: 5px ;
     margin: 5px;
@@ -20,6 +82,8 @@
 
 
 .welcomeContainer{
+    float: left ;
+    width: 100%;
     border:5px solid  blue;
     padding: 5px ;
     margin: 5px;
@@ -27,22 +91,16 @@
 
 
 .footerContainer{
+    float: left;
+    width: 100% ;
     border:5px solid  red;
     padding: 5px ;
     margin: 5px;
 }
 
-./*logoContainer{
-    width:50px ;
-    height: 50px ;
-    
-}*/
 
-.logo{
-    width:  30% ;
-    height: 80px;
-    
-}
+
+
 
 
  
